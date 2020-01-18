@@ -1,0 +1,83 @@
+html,body{
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(250,250,250);
+    position: relative;
+}
+.header{
+    background-color: #3f51b5;
+    background-color: #a1887f;
+    height: 80px;
+    color: #e8eaf6;
+    box-shadow:5px 5px 4px 5px #cccccc;
+    position: fixed;
+    width: 100%;
+}
+.title{
+    position: relative;
+    top: 20%;
+    left: 3%;
+}
+.container{
+    margin-top:8% !important;
+}
+.w3-sidebar{
+    position: relative;
+    top:80px;
+    width:15%;
+    z-index: 1000;
+}
+#myOverlay{
+    z-index:-1;
+}
+.content{
+    margin-left: 10%;
+}
+a{
+    text-decoration: none !important;
+}
+
+#myOverlay{
+    display: none;
+}
+#menu{
+    background-color: #a1887f !important;
+    cursor: pointer;
+    position: relative;
+    right: 2%;
+}
+
+@media only screen and (max-width: 283px) {
+.header {
+height: 100px;
+}
+}
+@media only screen and (max-width: 992px) {
+.content {
+margin-left: 0% !important;
+margin-top: 15% !important;
+}
+}
+@media only screen and (min-width: 992px) {
+#mySidebar{
+  width:15% !important;
+}
+}
+@media only screen and (max-width: 1199px) {
+.content {
+margin-top: 12% !important;
+margin-left:15%;
+}
+
+}
+@media only screen and (max-width: 700px) {
+.content {
+margin-left: 0% !important;
+margin-top: 0% !important;
+}
+.header{
+  position: relative;
+}
+
+}
