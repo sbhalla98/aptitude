@@ -6,8 +6,7 @@ body{
     position: relative;
 }
 .header{
-    background-color: #3f51b5;
-    background-color: #a1887f;
+    background-color:#736CED;
     height: 80px;
     color: #e8eaf6;
     box-shadow:5px 5px 4px 5px #cccccc;
@@ -21,6 +20,16 @@ body{
 }
 .container{
     margin-top:8% !important;
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-weight: bold;
+    
+}
+.ansButton{
+    background-color: #736CED;
+    color: white;
+}
+.ansDiv{
+    font-weight: 100;
 }
 .w3-sidebar{
     position: relative;
