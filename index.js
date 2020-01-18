@@ -38,19 +38,17 @@ function f1(){
         "<div>C."+	value.option3+"</div>"+
         "<div>D."+	value.option4+"</div>"+
         "<br/>"+
-        "<div id="+index+" style='display:none'>"+value.ans+"<br/>"+"</div>"+
-        "<button id="+index+"q"+" onclick="+"getans(event,id)"+">view ans</button>"+
+        "<div class='ansDiv' id="+index+" style='display:none'>"+value.ans+"<br/>"+"</div>"+
+        "<button class='ansButton' id="+index+"q"+" onclick="+"getans(event,id)"+">Answer</button>"+
         "<hr>";
     })
 }
 var flag=true;
-document.getElementsByClassName("hidden").style.display ="none";
 function getans(event,id){
     var i=parseInt(id);
     console.log("dwdw");
     $("#".id).animate({top:'2%'},1000);
     $("#"+i).fadeToggle();
-   
 }
 
 var mySidebar = document.getElementById("mySidebar");
